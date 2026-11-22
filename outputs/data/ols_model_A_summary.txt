@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          delta_dv_rate   R-squared:                       0.028
+Model:                            OLS   Adj. R-squared:                 -0.026
+Method:                 Least Squares   F-statistic:                    0.5120
+Date:                Thu, 16 Jul 2026   Prob (F-statistic):              0.483
+Time:                        00:49:36   Log-Likelihood:                 12.674
+No. Observations:                  20   AIC:                            -21.35
+Df Residuals:                      18   BIC:                            -19.36
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              0.2410      0.194      1.243      0.230      -0.166       0.648
+stringency_avg    -0.0034      0.005     -0.716      0.483      -0.013       0.007
+==============================================================================
+Omnibus:                        0.948   Durbin-Watson:                   1.880
+Prob(Omnibus):                  0.622   Jarque-Bera (JB):                0.816
+Skew:                           0.226   Prob(JB):                        0.665
+Kurtosis:                       2.120   Cond. No.                         260.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

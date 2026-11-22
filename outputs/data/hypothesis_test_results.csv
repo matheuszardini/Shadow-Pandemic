@@ -1,0 +1,4 @@
+,n_countries,pre_mean,pandemic_mean,pre_median,pandemic_median,statistic,p_value,n_increased,effect_size_rank_biserial_approx,n_pre_obs,n_pandemic_obs
+dv_homicide_wilcoxon,22.0,0.43227272727272736,0.5018181818181819,0.33999999999999997,0.42500000000000004,194.5,0.013628772096566094,17.0,0.5375494071146245,,
+sexual_violence_wilcoxon,16.0,38.123125,39.76416666666667,22.025,14.338333333333333,90.0,0.1372222900390625,10.0,,,
+dv_homicide_mannwhitney_obslevel,,,,,,1937.0,0.015691360170002944,,,46.0,68.0

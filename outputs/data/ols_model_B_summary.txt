@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          delta_dv_rate   R-squared:                       0.211
+Model:                            OLS   Adj. R-squared:                  0.063
+Method:                 Least Squares   F-statistic:                     1.428
+Date:                Thu, 16 Jul 2026   Prob (F-statistic):              0.271
+Time:                        00:49:36   Log-Likelihood:                 14.766
+No. Observations:                  20   AIC:                            -21.53
+Df Residuals:                      16   BIC:                            -17.55
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+const                    0.1154      0.257      0.450      0.659      -0.429       0.659
+stringency_avg          -0.0032      0.009     -0.372      0.715      -0.021       0.015
+economic_support_avg     0.0032      0.002      1.729      0.103      -0.001       0.007
+stay_home_avg           -0.1086      0.156     -0.698      0.495      -0.438       0.221
+==============================================================================
+Omnibus:                        1.678   Durbin-Watson:                   1.630
+Prob(Omnibus):                  0.432   Jarque-Bera (JB):                1.438
+Skew:                          -0.572   Prob(JB):                        0.487
+Kurtosis:                       2.355   Cond. No.                         680.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
