@@ -47,4 +47,46 @@ The project follows a reproducible data analytics pipeline:
 Shadow-Pandemic/
 │
 ├── notebooks/
-│   └
+│   └── Shadow_Pandemic_Analysis.ipynb
+│
+├── outputs/
+│   ├── data/
+│   └── figures/
+│
+├── scripts/
+│   ├── 01_data_pipeline.py
+│   ├── 02_eda.py
+│   ├── 03_hypothesis_tests.py
+│   ├── 04_ols_regression.py
+│   └── 05_ml_model.py
+│
+└── README.md
+```
+
+## Reproducibility
+
+The Jupyter Notebook contains the analysis workflow, while the Python scripts organise the main analytical stages.
+
+To reproduce the analysis:
+
+1. Clone this repository.
+2. Install the required Python dependencies.
+3. Open the notebook in Jupyter.
+4. Execute the analysis cells in sequence.
+
+## Data Sources
+
+The analysis uses:
+
+- **Eurostat** – Crime and criminal justice statistics.
+- **Oxford COVID-19 Government Response Tracker (OxCGRT)** – COVID-19 government policy response indicators.
+
+## Academic Context
+
+Developed as part of the Higher Diploma in Data Analytics.
+
+**Author:** Matheus Zardini
+
+---
+
+*This project is an academic data analytics investigation. Statistical associations should not be interpreted as evidence of causation.*
